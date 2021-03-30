@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://jreinschmidt.github.io/salome1923/salome-1923/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Salome 1923" ] },
+    "homepage": [
+      {
+        "id": "https://github.com/jreinschmidt/salome1923",
+        "type": "Text",
+        "label": { "en": [ "Salome 1923" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://archive.org/details/SalomeSilentAllaNazimova",
+        "type": "Agent",
+        "label": { "en": [ "Internet Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://jreinschmidt.github.io/salome1923/salome-1923/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 4338.0,
+        "items": [
+          {
+            "id": "https://jreinschmidt.github.io/salome1923/salome-1923/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://jreinschmidt.github.io/salome1923/salome-1923/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia800304.us.archive.org/29/items/SalomeSilentAllaNazimova/Salome.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 4338.0
+                },
+                "target": "https://jreinschmidt.github.io/salome1923/salome-1923/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
